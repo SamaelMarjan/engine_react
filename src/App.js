@@ -8,7 +8,7 @@ function App() {
   return (
     <>
     <div className='w-[100%] h-[100%]'>
-      <div className='w-[80%] h-[100%] m-auto'>
+      <div className='w-[90%] h-[100%] m-auto'>
         <Navbar />
         <Main />
         <Footer />
