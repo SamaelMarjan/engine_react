@@ -2,7 +2,7 @@ import React from 'react';
 
 const Main = () => {
   return (
-    <div>Main</div>
+    <div className='w-[100%] h-[100vh]'>Main</div>
   );
 }
 
