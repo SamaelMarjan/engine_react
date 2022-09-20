@@ -22,8 +22,8 @@ const Footer = () => {
             <a href='c'>exercitation</a>
             <a href='d'>ullamco</a>
           </div>
-          <div className='w-[300px] h-[200px] md:h-[149px] md:w-[400px] flex justify-center items-center md:items-start md:justify-start text-sm-400 text-[#666666] tracking-widest'>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <div className='w-[100%] h-[200px] md:h-[149px] md:w-[300px] flex justify-center items-center md:items-start md:justify-start text-sm-400 text-[#666666] tracking-widest'>
+            <p className='flex items-center justify-center'>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
         </div>
       </div>
