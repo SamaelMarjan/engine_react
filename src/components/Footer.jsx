@@ -11,16 +11,16 @@ const Footer = () => {
             <img className='w-[255.2px] h-[24.64px]' src={Img} alt='logo' />
           </div>
           <div className='w-[114px] h-[152px] text-sm-400 text-[#666666] tracking-widest flex flex-col'>
-            <a href='#'>quis</a>
-            <a href='#'>nostrud</a>
-            <a href='#'>exercitation</a>
-            <a href='#'>ullamco</a>
+            <a href='a'>quis</a>
+            <a href='b'>nostrud</a>
+            <a href='c'>exercitation</a>
+            <a href='d'>ullamco</a>
           </div>
           <div className='w-[114px] h-[152px] text-sm-400 text-[#666666] tracking-widest flex flex-col'>
-            <a href='#'>quis</a>
-            <a href='#'>nostrud</a>
-            <a href='#'>exercitation</a>
-            <a href='#'>ullamco</a>
+            <a href='a'>quis</a>
+            <a href='b'>nostrud</a>
+            <a href='c'>exercitation</a>
+            <a href='d'>ullamco</a>
           </div>
           <div>flex3</div>
         </div>
