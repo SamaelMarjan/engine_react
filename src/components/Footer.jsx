@@ -5,7 +5,7 @@ import Img from '../assets/Figmateam.png';
 const Footer = () => {
   return (
     <>
-      <div className=' w-[100%] h-[100%] flex'>
+      <div className=' w-[90%] h-[100%] m-auto flex'>
         <div className='w-[100%] h-[100%] mt-10 flex flex-col items-center justify-center md:flex md:flex-row md:justify-between md:items-start'>
           <div className='mb-[20px]'>
             <img className='w-[255.2px] h-[24.64px]' src={Img} alt='logo' />
