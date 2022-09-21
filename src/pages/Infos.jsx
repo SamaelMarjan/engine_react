@@ -19,13 +19,13 @@ const Infos = () => {
           <div className='w-[500px] h-[230px] border-[#828282] border hover:border-[#FF0000] mb-[100px] flex items-center'>
             <div className='w-[80%] m-auto'>
               <p className='w-[100%] h-[43px] text-xl font-medium tracking-widest'>Lorem ipsum dolor sit amet</p>
-              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
+              <p className='w-[100%] h-[118px] text-base font-normal text-[#666666] tracking-widest'>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
             </div>
           </div>
           <div className='w-[500px] h-[230px] border-[#828282] border hover:border-[#FF0000] mb-[100px] flex items-center'>
             <div className='w-[80%] m-auto'>
               <p className='w-[100%] h-[43px] text-xl font-medium tracking-widest'>Lorem ipsum dolor sit amet</p>
-              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
+              <p className='w-[100%] h-[118px] text-base font-normal text-[#666666] tracking-widest'>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
             </div>
           </div>
         </div>
@@ -36,15 +36,15 @@ const Infos = () => {
         </div>
         <div className='w-[60%] h-[400px] flex items-center justify-center'>
           <div className='w-[80%]'>
-            <p>
+            <p className='uppercase text-xl font-normal text-[#BDBDBD] w-[100%] h-[68px] tracking-widest'>
               Duis aute 
-              irure dolor in reprehenderit
+              <span className='block'>irure dolor in reprehenderit</span>
             </p>
-            <p>
+            <p className='font-medium text-3xl w-[100%] h-[102px] tracking-widest'>
               139,222 Lorem 
-              ipsum dolor sit amet 4 Turbo
+              <span className='block'>ipsum dolor sit amet 4 Turbo</span>
             </p>
-            <p>
+            <p className='w-[450px] h-[100%] font-normal text-[#666666] text-xl tracking-widest'>
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
           </div>
@@ -57,8 +57,11 @@ const Infos = () => {
         </div>
         <div className='md:absolute top-[50%]  w-[40%] h-[400px] flex items-center justify-center'>
           <div className='w-[70%]'>
-            <p>Lorem ipsum dolor sit amet</p>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+            <p className='w-[100%] h-[43px] font-medium text-2xl tracking-widest'>Lorem ipsum dolor sit amet</p>
+            <p className='w-[100%] h-[78px] font-normal text-base tracking-widest'>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+            <button className='bg-black w-[350px] h-[70px] rounded-full'>
+              <a href='a'>Lorem ipsum dolor</a>
+            </button>
           </div>
         </div>
       </div>
